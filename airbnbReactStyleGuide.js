@@ -53,3 +53,10 @@ function Listing({ hello }) {
     return <div>{hello}</div>;
 }
 
+// 3. Mixings
+// 
+//  DO NOT USE MIXINS
+// Why? Mixins introduce implicit dependencies, cause name clashes, and cause snowballing complexity.
+// Most use cases for mixins can be accomplished in better ways via components, higher-order components, or itility modules.
+
+// https://reactjs.org/blog/2016/07/13/mixins-considered-harmful.html
